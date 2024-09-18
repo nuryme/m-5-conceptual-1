@@ -1,0 +1,16 @@
+.another-class {
+    background-color: rgb(193, 135, 247);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: white;
+}
+.common-style {
+    color: blueviolet;
+    border: 1px solid violet;
+}
+.styling {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}

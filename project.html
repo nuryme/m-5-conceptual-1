@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="space-y-12">
+    <section class="text-center">
+        <h1 class="text-5xl">Counter</h1>
+        <h2 id="count" class="my-5 text-3xl font-bold">0</h2>
+        <button onclick="clickMe()" id="plus-btn" class="btn btn-primary text-xl">+</button>
+        <button id="minus-btn" class="btn btn-success text-xl">-</button>
+    </section>
+
+    <section class="text-center">
+        <textarea name="" id="text-area" placeholder="leave a review...."
+            class="textarea mx-auto textarea-bordered textarea-lg w-96"></textarea>
+        <button id="submit-btn" class="btn btn-success btn-sm">Submit</button>
+        <div class="container" id="review">
+            <h2 class="text-xl font-bold text-rose-500">User Review...</h2>
+        </div>
+    </section>
+
+    <section class="text-center card shadow-lg">
+        <h1 class="text-5xl my-5">Random Text</h1>
+        <div class="card bg-base-100 w-96 shadow-2xl mx-auto">
+            <div class="card-body text-left">
+                <p id="quote-p">If a dog chews shoes whose shoes does he choose?</p>
+                <h2 class="card-title" id="name-author">
+                    author
+                </h2>
+                <div class="card-actions justify-end">
+                    <div class="btn btn-outline btn-primary btn-xs mx-auto my-5" id="quote">New Quote</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/project.js"></script>
+</body>
+
+</html>
